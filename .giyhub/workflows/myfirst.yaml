@@ -4,4 +4,13 @@ on: push
 
 jobs:
     first_job:
-        runs-on
+        runs-on: ubuntu-latest
+        steps:
+        - name: welcome to learning
+          run: echo "my first_job message"
+        
+        - name: list files
+          run: list
+        
+        -name: read file
+         run: cat README.md
