@@ -1,0 +1,7 @@
+name: my first file creation
+
+on: push  
+
+jobs:
+    first_job:
+        runs-on
