@@ -8,5 +8,7 @@ jobs:
     steps:
     - name: welcomne to first
       run: echo "hello Naveen "
+    - name: print the reand me file
+      run: echo README.md
 
         
