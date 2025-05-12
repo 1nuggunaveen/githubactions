@@ -1,0 +1,12 @@
+name: my first file creation
+
+on: push  
+
+jobs:
+  first-job: 
+    runs-on: ubuntu-latest
+    steps:
+    - name: welcomne to first
+      run: echo "hello Naveen "
+
+        
