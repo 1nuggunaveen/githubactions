@@ -11,4 +11,7 @@ jobs:
     - name: print the reand me file
       run: echo README.md
 
+    - name: list
+      run: ls
+
         
